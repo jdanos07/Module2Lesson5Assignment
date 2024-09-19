@@ -1,7 +1,9 @@
+# Task 2: Use inputs to ask the user what operation they want to perform, 
+# and what numbers they want to use.
 x_value = int(input("Pick a number for \"x\"- " ))
 y_value = int(input("Pick a number for \"y\"- "))
 operation = input("Do you want to add, subtract, multiply, or divide x & y? ").lower()
-calculations = ['add', 'subtract', 'multiply', 'divide']
+
 
 def addition():
     return x_value + y_value
@@ -23,9 +25,7 @@ elif operation == 'subtract':
 elif operation == 'multiply':
     print(multiplication())
 elif operation == 'divide':
-    try:
-        print(division())
-    except ZeroDivisionError:
-        print('Undefined. Division by 0 is not computable')
+    print(division())
+  
 else:
     print('Check the spelling, or the operation not supported.' )

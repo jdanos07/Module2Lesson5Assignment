@@ -1,7 +1,9 @@
+# Task 1: Create functions for each arithmetic operation.
+
 #x_value = int(input("Pick a number for \"x\"- " ))
 #y_value = int(input("Pick a number for \"y\"- "))
-#operation = input("Do you want to add, subtract, multiply, or divide x & y? ").lower
-#calculations = ['add', 'substract', 'multiply', 'divide']
+#operation = input("Do you want to add, subtract, multiply, or divide x & y? ").lower()
+
 
 def addition(x_value, y_value):
     return x_value + y_value

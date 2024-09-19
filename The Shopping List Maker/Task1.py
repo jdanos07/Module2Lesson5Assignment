@@ -12,7 +12,7 @@ def add_item_to_shopping_list():
             
         more_items = input('Would you like to add more items? Yes / No - ').lower()
         if more_items == 'no':
-            print('Let\'s go shopping')
+            print('Let\'s go shopping!')
             break
 
 shopping_list = []
